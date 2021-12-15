@@ -33,7 +33,7 @@ namespace Rock_paper_scissors {
                 }
                 table.AddRow(row);
             }
-            table.Write();
+            table.Write(Format.Alternative);
         }
     }
 }
